@@ -13,7 +13,7 @@ const fibonacci = function* (times = undefined) {
     } else if (times >= 0) {
       test = ({ i }) => i <= times;
     } else {
-      console.error('An Serial Number Less than 0 Was Received.');
+      console.error('A Negative Number Was Received.');
       console.warn('show test fibonacci sequence');
       test = ({ i }) => i <= 5;
     }
